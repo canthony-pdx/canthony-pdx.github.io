@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+nav {
+  background-color: green;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  justify-content: center;
+}
+
 .nav-list {
   list-style-type: none;
   padding: 0;
@@ -19,12 +27,12 @@ body {
 
 .nav-link {
   display: block;
-  color: var(--white);
+  color: white;
   text-align: center;
   padding: 20px;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: var(--black);
+  color: black;
 }
