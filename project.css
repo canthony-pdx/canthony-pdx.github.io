@@ -8,6 +8,7 @@ nav {
   overflow: hidden;
   width: 100vw;
   justify-content: center;
+  position: fixed;
 }
 
 .nav-list {
@@ -35,4 +36,24 @@ nav {
 
 .nav-link:hover {
   color: black;
+}
+
+.about {
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.previous-work {
+  height: 100vh;
+  background-color: white;
+}
+
+.projects {
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.contact {
+  height: 100vh;
+  background-color: white;
 }
