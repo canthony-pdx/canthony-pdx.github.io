@@ -57,3 +57,8 @@ nav {
   height: 100vh;
   background-color: white;
 }
+
+.header {
+  text-align: center;
+  font-size: 5rem;
+}
