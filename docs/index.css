@@ -6,7 +6,7 @@ nav {
   background-color: green;
   display: flex;
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   position: fixed;
   z-index: 9999;
@@ -31,7 +31,7 @@ nav {
   display: block;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 10px;
   text-decoration: none;
 }
 
@@ -54,14 +54,8 @@ nav {
   background-color: lightgray;
 }
 
-@media (max-width: 768px) {
-  .projects {
-    height: 175vh;
-  }
-}
-
 .contact {
-  height: 100vh;
+  height: 125vh;
   background-color: white;
 }
 
@@ -71,4 +65,14 @@ nav {
 
 h1 {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    height: 175vh;
+  }
+
+  .contact {
+    height: 175vh;
+  }
 }
