@@ -54,12 +54,8 @@ nav {
 }
 
 .contact {
-  height: 125vh;
+  height: 100vh;
   background-color: white;
-}
-
-.header {
-  font-size: 2rem;
 }
 
 h1 {
