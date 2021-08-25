@@ -1,0 +1,11 @@
+.previous-work {
+  text-align: center;
+}
+
+.courses {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 3vw;
+}
