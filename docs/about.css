@@ -3,11 +3,7 @@
   margin: 0 auto;
 }
 
-p::first-line {
-  font-weight: bold;
-}
-
-img {
+.about img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;

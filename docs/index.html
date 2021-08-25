@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webdev Final Project</title>
-    <!-- <link
+    <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
-    /> -->
+    />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="previous-work.css" />
@@ -27,11 +27,11 @@
             </ul>
         </nav>
         <div class="about" id="about">
-          <br>
-          <br>
+          <br><br><br>
           <h1 class="header">About Me</h1>
           <div class="about-container">
             <img src="http://placekitten.com/200/200" alt="placeholder image" width="200" height="200">
+            <br>
             <p>
               Hello, my name is Anthony Chin. I am born and raised in Portland, Oregon. The image is a placeholder since I don't have an image of myself. I am an
               undergraduate student at Portland State University and I am working on a dual major in Computer Science and Math.
@@ -39,42 +39,60 @@
           </div>
         </div>
         <div class="previous-work" id="previous-work">
-          <br>
-          <br>
+          <br><br><br>
           <h1 class="header">Previous Work</h1>
         </div>
         <div class="projects" id="projects">
-          <br>
-          <br>
+          <br><br><br>
           <h1 class="header">Projects</h1>
+          <br><br><br>
+
+            <div class="column">
+              <div class="card">
+                <h3>Level-JJAM</h3>
+                <p>
+                  Level-JJAM is a single player dungeon crawler game made for my open source course. The player must collect weapons and keys to defeat enemies to reach the end
+                  of the dungeon.
+                </p>
+                <p>Some text</p>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <h3>Card 2</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+              </div>
+            </div>
+            
+
         </div>
         <div class="contact" id="contact">
-          <br>
-          <br>
+          <br><br><br>
           <h1 class="header">Contact</h1>
-          <form action="" class="form">
-            <h1>Contact Form</h1>
-            <div class="form-element">
-              <label for="name">Name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-            <br>
-            <div class="form-element">
-              <label for="email">Email: </label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <br>
-            <div>
-              <label for="message">Message:</label>
-              <br>
-              <textarea name="message" id="message" cols="51" rows="10" required></textarea>
-            </div>
-            <br>
-            <div class="btn">
-              <input type="submit" value="Submit" class="btn-primary">
-              <input type="reset" value="Reset" class="btn-secondary">
-            </div>
-          </form>
+          <br><br>
+          <div class="d-flex justify-content-center">
+            <form>
+              <h1>Contact Form</h1>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea class="form-control" id="message" rows="10"></textarea>
+              </div>
+              <div class="d-flex justify-content-around">
+                <button type="submit" class="btn btn-lg btn-primary" data-toggle="button" aria-pressed="false">Submit</button>
+                <button class="btn btn-secondary btn-lg" type="reset">Reset</button>
+              </div>
+            </form>
+          </div>
         </div>
     </main>
   </body>
